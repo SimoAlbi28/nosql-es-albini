@@ -1,0 +1,33 @@
+{
+  "name": "nosql-es-albini",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimoAlbi28/nosql-es-albini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimoAlbi28/nosql-es-albini/issues"
+  },
+  "homepage": "https://github.com/SimoAlbi28/nosql-es-albini#readme",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "dotenv": "^17.2.3",
+    "mongodb": "^6.20.0",
+    "ts": "^0.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
