@@ -1,4 +1,4 @@
-import { connectToDatabase, closeConnection } from '../src/mongo/connection.ts';
+import { connectToDatabase, closeConnection } from '../src/connection.ts';
 
 const esercizio02 = async () => {
   try {
